@@ -346,6 +346,9 @@ input[type="text"]::placeholder{
 }
 
 /* newsletter style */
+.newsletter-container{
+    padding-bottom: 80px;
+}
 
 .newsletter-container h2{
     text-align: center;
@@ -391,5 +394,23 @@ input[type="text"]{
 
 .end{
     text-align: center;
+    margin-bottom: 80px;
 }
 
+/* footer styles */
+.footer{
+    margin: 50px auto;
+}
+
+.footer h3{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.icono{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+}
