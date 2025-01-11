@@ -11,6 +11,11 @@
 
   /* Shared Styles */
 
+.fxd-width{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .bgm-color{
     background-color: #F5F5F5; 
 } 
@@ -35,6 +40,27 @@
     border: none;
 }
 
+.btn-learn-more{
+    padding: 11px 20px;
+}
+
+.description-font{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.article-font{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.heading-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
 /* nav styles */
 
 nav{
@@ -50,16 +76,11 @@ nav h3{
 }
 
 /* main content padding */
-main{
+/* main{
     padding: 25px 160px;
-}
+} */
 
 /* section-hero styles */
-
-.hero{
-    margin-top: 20px;
-    max-width: 1280px;
-}
 
 .hero-content{
     padding:80px 60px;
