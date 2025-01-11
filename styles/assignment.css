@@ -38,6 +38,7 @@
     background-color: #006A50;
     border-radius: 8px;
     border: none;
+    margin-bottom: 32px;
 }
 
 .btn-learn-more{
@@ -293,4 +294,55 @@ nav h3{
     display: flex;
     flex-direction: row-reverse;
     gap: 32px;
+}
+
+/* donate style */
+
+.donate-container{
+    margin: 40px auto;
+    text-align: center;
+}
+
+.donate-container h2{
+    margin-bottom: 24px;
+}
+
+/* .donate-container>p{
+    margin-bottom: 32px;
+} */
+
+.boxes{
+    margin: 32px 100px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    /* background-color: #FFFFFF; */
+}
+
+.box{
+    padding: 40px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.box:hover{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+input[type="text"]{
+    width: 1032px;
+    height: 64px;
+    margin: 32px 124px;
+    display: block;
+    border: none;
+    
+}
+
+input[type="text"]::placeholder{
+    text-align: center;
+    font-size: 20px;
 }
