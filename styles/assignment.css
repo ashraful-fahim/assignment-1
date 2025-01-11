@@ -109,3 +109,104 @@ nav h3{
 .hero-img{
     margin-top: 80px;
 }
+
+/* version section style */
+.version{
+    padding-top: 80px;
+}
+
+.version-description{
+    padding-top: 24px;
+    margin-bottom: 32px;
+}
+
+.card-container{
+    display: flex;
+    gap: 24px;
+    padding: 32px auto;
+}
+
+.card-padding{
+    padding: 32px;
+}
+
+/* card-1 styles */
+.card-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+
+.card-title{
+    padding: 24px 0px 24px;
+}
+
+.card-1 p{
+    padding-right: 24px;
+    line-height: 24px;
+}
+
+.card-1 button{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: rgba(84, 144, 245, 1);
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;   
+}
+
+/* card-2 styles */
+.card-2{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+}
+
+.card-title{
+    padding: 24px 0px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.card-2 p{
+    padding-right: 24px;
+    line-height: 24px;
+}
+
+.card-2 button{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #09A15C;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;   
+}
+
+/* card-3 styles */
+.card-3{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+}
+
+.card-title{
+    padding: 24px 0px 24px;
+}
+
+.card-3 p{
+    padding-right: 24px;
+    line-height: 24px;
+}
+
+.card-3 button{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #FFC239;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;   
+}
